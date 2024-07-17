@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity= 
+"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+<link rel="stylesheet" href="/style.css">
+</head>
+<body style="background-image: url('/assets/signupimg.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center center;">
+    
+    <div class="form-container">
+    <h2>SignUp Form</h2>
+    <form action="/signup" method="post">
+        <div class="form-group">
+            <input class="box" type="text" id="firstname" name="firstname" placeholder="Enter Your First Name" required autocomplete="off">
+        </div>
+
+        <div class="form-group">
+            <input class="box" type="text" id="lastname" name="lastname" placeholder="Enter Your Last Name" required autocomplete="off">
+        </div>
+
+        <div class="form-group">
+            <input class="box" type="email" id="email" name="email" placeholder="Enter Your Email" required autocomplete="off">
+        </div>
+
+        <div class="form-group">
+            <input class="box" type="text" id="contactnumber" name="contactnumber" placeholder="Enter Your Contact Number" required autocomplete="off">
+        </div>
+
+        <div class="form-group">
+            <input class="box" type="password" id="password" name="password" placeholder="Password" required>
+        </div>
+        <button type="submit" class="submit-btn">SignUp</button>
+    </form>
+    </div>
+</body>
+</html>
